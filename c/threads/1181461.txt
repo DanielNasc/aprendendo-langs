@@ -1,0 +1,14 @@
+<N> = 11814161
+
+Serial implementation
+Result: 3.141593 Time: 0.017217
+Parallel implementation
+Result: 3.141593 Time: 0.006227
+Serial implementation via epsilon
+Result: 3.141593 Time: 0.667981
+Parallel implementation via epsilon
+Result: 3.141593 Time: 0.478078
+
+
+MATH_PI: 3.141593
+Done
