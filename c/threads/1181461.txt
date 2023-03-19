@@ -1,5 +1,9 @@
 <N> = 11814161
 
+----------------------------------------------------------------------------------------------------------------------------
+
+test 1
+
 Serial implementation
 Result: 3.141593 Time: 0.017217
 Parallel implementation
@@ -8,6 +12,34 @@ Serial implementation via epsilon
 Result: 3.141593 Time: 0.667981
 Parallel implementation via epsilon
 Result: 3.141593 Time: 0.478078
+
+
+MATH_PI: 3.141593
+Done
+
+----------------------------------------------------------------------------------------------------------------------------
+
+test 2
+
+Implementation: Serial
+Result: 3.141593 Time: 0.014061
+Absolute error: 0.000001
+Relative error: 0.000000
+
+Implementation: Parallel
+Result: 3.141593 Time: 0.006985
+Absolute error: 0.000001
+Relative error: 0.000000
+
+Implementation: Serial implementation via epsilon
+Result: 3.141593 Time: 0.608005
+Absolute error: 0.000000
+Relative error: 0.000000
+
+Implementation: Parallel implementation via epsilon
+Result: 3.141593 Time: 0.347682
+Absolute error: 0.000000
+Relative error: 0.000000
 
 
 MATH_PI: 3.141593
