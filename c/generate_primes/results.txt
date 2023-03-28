@@ -1,0 +1,5 @@
+Enter a number: 20
+Time taken to compute 1048576 iterations of CheckPrime: 0.153432 seconds
+Time taken to compute 1048576 iterations of genPrime: 1660.992961 seconds
+the 20th prime is 71.000000
+

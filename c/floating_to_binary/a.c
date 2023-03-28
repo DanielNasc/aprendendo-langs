@@ -127,7 +127,7 @@ void double_to_binary(double n, char *binary, type t)
 
         fractional_part *= 2.0;
         fractional_part = round(fractional_part * 1000000) / 1000000; // round to 6 decimal places to avoid floating point errors
-        if (fractional_part > 1) 
+        if (fractional_part >= 1) 
         {
             printf("[%d] fractional part: %f -> 1 ::%s ->\t", i+1, fractional_part, mantissa);
             mantissa[i] = '1';
