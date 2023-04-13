@@ -11,8 +11,11 @@
 		add.d	$f6,	$f2,	$f0 	# soma: soma = 1 + eps
 		c.eq.d	$f6, 	$f2		# checa: soma == 1
 		bc1f divv
-	mul.d	$f2,	$f0,	$f4		# last number x that satisfies x + 1 = 1: 
+	mul.d	$f0,	$f0,	$f4		# last number x that satisfies x + 1 = 1: 
 	add.d	$f10,	$f2,	$f0		# soma: 1 + eps
 	
 	
 	
+	li $v0, 3
+	mov.d $f12, $f10
+	syscall
