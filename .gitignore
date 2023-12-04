@@ -1,2 +1,8 @@
 *.out
 .ccls-cache
+
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+
+*.out
