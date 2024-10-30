@@ -6,3 +6,8 @@ CMakeFiles
 cmake_install.cmake
 
 *.out
+
+*.o
+*.nes
+target
+*.class
